@@ -8,6 +8,10 @@ fun main() {
 
     println("a = $a b = $b")
 
+    // test comment
+    /* this block is commented
+
+     */
     println("a + b = ${a+b}")
     println("a - b = ${a-b}")
     println("a * b = ${a*b}")
@@ -18,7 +22,9 @@ fun main() {
 
     secondFun()
 }
-
+/**
+ * test to see if this shows in tooltip
+ */
 fun secondFun() {
     println("Hello KOTLIN")
 }
