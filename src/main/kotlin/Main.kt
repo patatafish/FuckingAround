@@ -1,16 +1,20 @@
 fun main() {
-    print("Hello World! ")
+    var a = 198577124
+    var b = 12.0
+
+    a++
+    b--
+
+
+    println("a = $a b = $b")
+
+    println("a + b = ${a+b}")
+    println("a - b = ${a-b}")
+    println("a * b = ${a*b}")
+    println("a / b = ${a/b}")
+    println("a % b = ${a%b}")
 
     secondFun()
-
-    val exampleString = "Patrick"
-    val exampleNumber= 3.89
-
-    val testingInt: Int
-    testingInt = 45
-
-    print('?'.code)
-
 }
 
 fun secondFun() {
