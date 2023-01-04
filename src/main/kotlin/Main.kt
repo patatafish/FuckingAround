@@ -1,23 +1,19 @@
 fun main() {
-    val names = arrayOf("one", "two", "three", "farts")
-
-    for (i in names.indices) {
-        println("$i: ${names[i]}")
-    }
-
-    for (name in names) {
-        println(name)
-    }
-
-    for (i in 1..10 step 3) {
+    var i = 0
+    while (i <= 50){
         println(i)
+        i++
     }
 
-    for (i in 1 until 10) {
-        println(i)
-    }
 
-    for (i in 10 downTo 1) {
+    fuckass@ do {
+        var j = 15
+        while (j > 10) {
+            println("---${--j}")
+            if (j == 11) continue@fuckass
+        }
+        i--
         println(i)
-    }
+    } while (i != 3)
+
 }
