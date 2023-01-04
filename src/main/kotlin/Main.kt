@@ -1,30 +1,10 @@
 fun main() {
-    var a = 198577124
-    var b = 12.0
+    val names = arrayOf("one", "two", "three")
+    val numbersArray = arrayOf(
+        arrayOf(1, 2, 3),
+        arrayOf(3, 4, 5)
+    )
+    println("Element size: ${names.size}")
+    println("First element: ${names.last()}")
 
-    a++
-    b--
-
-
-    println("a = $a b = $b")
-
-    // test comment
-    /* this block is commented
-
-     */
-    println("a + b = ${a+b}")
-    println("a - b = ${a-b}")
-    println("a * b = ${a*b}")
-    println("a / b = ${a/b}")
-    println("a % b = ${a%b}")
-
-    var c = 67
-
-    secondFun()
-}
-/**
- * test to see if this shows in tooltip
- */
-fun secondFun() {
-    println("Hello KOTLIN")
 }
