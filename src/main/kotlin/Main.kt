@@ -14,6 +14,8 @@ fun main() {
     println("a / b = ${a/b}")
     println("a % b = ${a%b}")
 
+    var c = 67
+
     secondFun()
 }
 
