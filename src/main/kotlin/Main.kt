@@ -1,3 +1,5 @@
+import huge_package.Test
+
 fun main() {
     val test = Test()
     println(test.name)
@@ -17,12 +19,3 @@ fun main() {
     println("${five.name} ${five.age}")
 }
 
-class Test(name: String = "Default User", var age: Int = -1) {
-    var name: String = if (name.isBlank()) "Default User" else name.trim()
-
-    init {
-        println("I've shat my pants")
-
-    }
-
-}
